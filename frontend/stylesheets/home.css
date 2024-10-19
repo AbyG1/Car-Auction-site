@@ -4,3 +4,97 @@ body{
     background-color: rgb(0, 0, 0);
     color:rgb(255, 255, 255);
 }
+
+.navbar{
+    height: 160px;
+   
+}
+
+.navbar-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 80px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    background-color: #ffd819;
+}
+
+.brand-text{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.search-bar{
+    width: 300px;
+    padding: 25px 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.signup-link{
+    background-color: #ffd819;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+
+.login-link{
+    border: 2px solid #ffd819;
+    padding: 10px 22px;
+    border-radius: 20px;
+
+}
+
+.navbar-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hero-text{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    gap: 20px
+}
+
+.hero-heading{
+    width: 50%;
+    font-size: 35px;
+}
+
+.hero-subtext{
+    width: 50%;
+    font-size: 20px;
+   
+   
+}
+
+
+.hero-img{
+    width: 100%;
+    object-fit: contain;
+    object-position: bottom;
+    height: 400px;
+}
